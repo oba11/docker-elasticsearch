@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Oluwaseun Obajobi <oluwaseun.obajobi@namshi.com>
+MAINTAINER Oluwaseun Obajobi <oba@obajobi.com>
 
 # Need to update the package repo first
 RUN apt-get -qq update
