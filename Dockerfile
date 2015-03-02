@@ -9,7 +9,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -qq adduser \
     openjdk-7-jre-headless
 
 # Download Elasticsearch Package
-ADD  https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.3.deb /tmp/elasticsearch.deb
+ADD  https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.4.deb /tmp/elasticsearch.deb
 
 # Install the Elasticsearch Package
 RUN  dpkg -i /tmp/elasticsearch.deb
